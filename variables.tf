@@ -6,7 +6,6 @@ variable "region" {
 variable "account_alias" {
     type = string
     description = "Must be not more than 63 characters. Valid characters are a-z, 0-9, and - (hyphen)."
-    default = ""
 }
 
 variable "hard_expiry" {
