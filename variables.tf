@@ -17,19 +17,19 @@ variable "hard_expiry" {
 
 variable "max_password_age" {
     description = "The number of days that an user password is valid"
-    type = int
+    type = number
     default = 20
 }
 
 variable "minimum_password_length" {
     description = "Minimum length to require for user passwords"
-    type = int
+    type = number
     default = 8
 }
 
 variable "password_reuse_prevention" {
     description = "The number of previous passwords that users are prevented from reusing"
-    type = int
+    type = number
     default = 8
 }
 
