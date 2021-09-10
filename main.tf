@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 #The IAM Account Alias data source allows access to the account alias for the effective account in which Terraform is working
-#data "aws_iam_account_alias" "current" {}
+data "aws_iam_account_alias" "jaya-world-alias" {}
 
 # To create IAM account alias 
 resource "aws_iam_account_alias" "jaya-world-alias" {
