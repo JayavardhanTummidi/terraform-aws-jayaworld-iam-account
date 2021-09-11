@@ -8,7 +8,7 @@ module "jayaworld-iam-account" {
   
   version = "0.3.0"
 
-# insert required variables here
+ # insert required variables here
 
 account_alias = "welcome-to-jaya-world"
 
